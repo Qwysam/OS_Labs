@@ -76,9 +76,9 @@ namespace Lab1
             this.process0.Items.AddRange(new object[] {
             "  while (1)",
             "  {",
-            "    inProc [i] = true;",
-            "    numProc[i] = max(numProc[0], numProc[1])+1; ",
-            "    inProc [i] = false;",
+            "    inProc [0] = true;",
+            "    numProc[0] = max(numProc[0], numProc[1])+1; ",
+            "    inProc [0] = false;",
             "    for (int j = 0; j< 2; j++)",
             "    {",
             "      while(numProc[j]){};",
